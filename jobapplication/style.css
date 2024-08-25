@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    background-color: rgb(212, 238, 248);
+    height: 100%;
+    width: 100%;
+}
+h1{
+    
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#main{
+    margin-top: 20%;
+    border: 1px solid gray;
+    height: 600px;
+    width: 700px;
+    background-color: wheat;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    text-align: center;
+    
+}
+#name {
+    height: 50px;
+    margin: 10px;
+  
+}
+label{
+    margin-left: 30px;
+    padding:0px;
+}
+#select{
+    translate: -100px;
+    height: 50px;
+       margin-top: 0px;
+       translate: 12px;
+}
+#address{
+    margin-top: 10px;
+       translate: 12px;
+}
+#info{
+    margin-top: 10px;
+       translate: 12px;
+}
+#date{
+    margin-top: 10px;
+       translate: 12px;
+}
